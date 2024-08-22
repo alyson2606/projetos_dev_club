@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-mario{
+    height: 200px;
+}   
+button{
+    color:white;
+    background-color: rgb(165, 20, 20);
+    height: 50px;
+    width: 200px;
+    border-radius:10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.luigi_e_mario{
+    height: 300px;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+    color: white;
+}
+
+.caixa-principal{
+    width: 40%;
+}
+
+video{
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.video_mario{
+    position: fixed;
+    z-index: -1;
+    /* min-width: 100%;
+    min-height: 100%; */
+    top: 0;
+    
+}
+.caixa-mae{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: rgba(37, 36, 36, 0.753);
+    position: fixed;
+    top: 0;
+}
+.link_para_whatsapp img{
+    height: 10px;
+    width: 10px;
+}
